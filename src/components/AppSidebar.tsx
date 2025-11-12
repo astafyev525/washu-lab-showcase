@@ -6,11 +6,9 @@ import {
   SidebarContent,
   SidebarGroup,
   SidebarGroupContent,
-  SidebarGroupLabel,
   SidebarMenu,
   SidebarMenuButton,
   SidebarMenuItem,
-  useSidebar,
 } from "@/components/ui/sidebar";
 
 const items = [
@@ -21,10 +19,13 @@ const items = [
 
 export function AppSidebar() {
   return (
-    <Sidebar collapsible="none">
+    <Sidebar collapsible="none" className="border-r bg-background">
       <SidebarContent>
+        <div className="p-6 border-b">
+          <h1 className="text-2xl font-bold text-foreground mb-1">WashU Laboratory</h1>
+          <p className="text-sm text-muted-foreground">Dr. Jane Smith</p>
+        </div>
         <SidebarGroup>
-          <SidebarGroupLabel>WashU Laboratory</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => (
