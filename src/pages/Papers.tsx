@@ -13,29 +13,21 @@ interface Paper {
 
 const papers: Paper[] = [
   {
-    title: "Novel Approaches to Computational Biology",
-    authors: "Smith, J., Doe, J., Johnson, S.",
-    year: 2024,
+    title: "Learning Conservative Neural Control Barrier Functions from Offline Data",
+    authors: "Tabbara I., Sibai H.",
+    year: 2025,
     description: "This paper presents innovative computational methods for analyzing complex biological systems. We introduce a new framework that combines machine learning with traditional statistical approaches to improve prediction accuracy in genomic studies.",
     githubUrl: "https://github.com/example/paper1",
-    paperUrl: "https://doi.org/example"
+    paperUrl: "https://arxiv.org/abs/2505.00908"
   },
   {
-    title: "Machine Learning in Medical Diagnostics",
-    authors: "Doe, J., Smith, J.",
+    title: "Designing Latent Safety Filters using Pre-Trained Vision Models",
+    authors: "Tabbara I., Yang Y., Hamzeh H., Astafyev M.",
     year: 2023,
     description: "We explore the application of deep learning algorithms in medical image analysis and diagnostic prediction. Our results demonstrate significant improvements in early disease detection and classification accuracy.",
-    githubUrl: "https://github.com/example/paper2",
-    paperUrl: "https://doi.org/example2"
+    githubUrl: "https://arxiv.org/abs/2509.14758",
+    paperUrl: "https://arxiv.org/abs/2509.14758"
   },
-  {
-    title: "Genomic Data Analysis at Scale",
-    authors: "Johnson, S., Smith, J., Doe, J.",
-    year: 2023,
-    description: "This work addresses the challenges of processing and analyzing large-scale genomic datasets. We present a distributed computing framework that enables efficient analysis of whole-genome sequencing data.",
-    githubUrl: "https://github.com/example/paper3",
-    paperUrl: "https://doi.org/example3"
-  }
 ];
 
 const Papers = () => {

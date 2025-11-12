@@ -9,16 +9,16 @@ interface Person {
 
 const people: Person[] = [
   {
-    name: "Dr. Jane Smith",
+    name: "Hussein Sibai",
     role: "Principal Investigator",
-    bio: "Dr. Smith leads the laboratory with expertise in computational biology and systems neuroscience.",
-    email: "jane.smith@wustl.edu"
+    bio: "Dr. Sibai leads the labratory with expertise in control barrier functions",
+    email: "sibai@wustl.edu"
   },
   {
-    name: "John Doe",
+    name: "Ihab Tabbara",
     role: "PhD Student",
     bio: "John is researching machine learning applications in biomedical data analysis.",
-    email: "john.doe@wustl.edu"
+    email: "i.k.tabbara@wustl.edu"
   },
   {
     name: "Sarah Johnson",
