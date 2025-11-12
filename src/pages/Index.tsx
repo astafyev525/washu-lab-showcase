@@ -4,6 +4,9 @@ const Index = () => {
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           <section className="mb-16">
+            <div className="mb-8 w-full h-64 bg-muted rounded-lg flex items-center justify-center">
+              <p className="text-muted-foreground">Lab Image Placeholder</p>
+            </div>
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
               We are a research group at Washington University in St. Louis dedicated to advancing 
               computational biology and biomedical research. Our work combines cutting-edge machine 
