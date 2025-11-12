@@ -1,12 +1,6 @@
-import Navigation from "@/components/Navigation";
-import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
-import { Link } from "react-router-dom";
-
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <div className="bg-background">
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           <section className="mb-16">
@@ -19,17 +13,6 @@ const Index = () => {
               learning techniques with biological data analysis to solve complex problems in healthcare 
               and life sciences.
             </p>
-            <div className="flex gap-4">
-              <Button asChild size="lg">
-                <Link to="/papers">
-                  View Our Research
-                  <ArrowRight className="ml-2 h-4 w-4" />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg">
-                <Link to="/people">Meet Our Team</Link>
-              </Button>
-            </div>
           </section>
 
           <section className="mb-16">

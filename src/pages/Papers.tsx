@@ -1,4 +1,3 @@
-import Navigation from "@/components/Navigation";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Github, ExternalLink } from "lucide-react";
@@ -41,8 +40,7 @@ const papers: Paper[] = [
 
 const Papers = () => {
   return (
-    <div className="min-h-screen bg-background">
-      <Navigation />
+    <div className="bg-background">
       <main className="container mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold text-foreground mb-8">Publications</h1>
         <div className="space-y-6">
