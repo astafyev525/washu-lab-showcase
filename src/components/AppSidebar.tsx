@@ -20,10 +20,8 @@ const items = [
 ];
 
 export function AppSidebar() {
-  const { open } = useSidebar();
-
   return (
-    <Sidebar collapsible="icon">
+    <Sidebar collapsible="none">
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel>WashU Laboratory</SidebarGroupLabel>
