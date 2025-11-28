@@ -11,20 +11,26 @@ const people: Person[] = [
   {
     name: "Hussein Sibai",
     role: "Principal Investigator",
-    bio: "Dr. Sibai leads the labratory with expertise in control barrier functions",
+    bio: "Dr. Sibai leads the labratory with expertise in control barrier functions.",
     email: "sibai@wustl.edu"
   },
   {
     name: "Ihab Tabbara",
     role: "PhD Student",
-    bio: "John is researching machine learning applications in biomedical data analysis.",
+    bio: "Ihab is a second year PhD student.",
     email: "i.k.tabbara@wustl.edu"
   },
   {
     name: "Yuxuan Yang",
     role: "PhD Student",
-    bio: "Sarah focuses on developing novel computational methods for genomic analysis.",
+    bio: "Yuxuan is a first year PhD student.",
     email: "y.yuxuan@wustl.edu"
+  },
+  {
+    name: "Ahmad Hamzeh",
+    role: "Undergraduate student",
+    bio: "Ahmad is a second year undergraduate student.",
+    email: "a.h.hamzeh@wustl.edu"
   }
 ];
 

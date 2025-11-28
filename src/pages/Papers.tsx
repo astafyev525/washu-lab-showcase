@@ -16,15 +16,15 @@ const papers: Paper[] = [
     title: "Learning Conservative Neural Control Barrier Functions from Offline Data",
     authors: "Tabbara I., Sibai H.",
     year: 2025,
-    description: "This paper presents innovative computational methods for analyzing complex biological systems. We introduce a new framework that combines machine learning with traditional statistical approaches to improve prediction accuracy in genomic studies.",
+    description: "This paper presents an algorithm for training neural control barrier functions from offline datasets to design safety filters for autonomous systems. The approach trains safety filters that prevent systems from reaching both unsafe states and out-of-distribution states where the filter would be unreliable. Inspired by Conservative Q-learning from offline reinforcement learning, the method produces Conservative Control Barrier Functions (CCBFs) that outperform existing approaches in maintaining safety and avoiding out-of-distribution states while minimally affecting task performance.",
     githubUrl: "https://github.com/example/paper1",
     paperUrl: "https://arxiv.org/abs/2505.00908"
   },
   {
     title: "Designing Latent Safety Filters using Pre-Trained Vision Models",
     authors: "Tabbara I., Yang Y., Hamzeh H., Astafyev M.",
-    year: 2023,
-    description: "We explore the application of deep learning algorithms in medical image analysis and diagnostic prediction. Our results demonstrate significant improvements in early disease detection and classification accuracy.",
+    year: 2025,
+    description: "This paper examines the effectiveness of pre-trained vision models as perception backbones for designing vision-based safety filters in robotics. The work uses these models as backbones for classifiers defining failure sets, for Hamilton-Jacobi reachability-based safety filters, and for latent world models. The research evaluates different approaches including training from scratch, fine-tuning, and freezing the pre-trained models to address the challenge of ensuring safety in vision-based control systems in complex and dynamic environments.",
     githubUrl: "https://arxiv.org/abs/2509.14758",
     paperUrl: "https://arxiv.org/abs/2509.14758"
   },
