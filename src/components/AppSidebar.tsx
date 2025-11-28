@@ -22,8 +22,8 @@ export function AppSidebar() {
     <Sidebar collapsible="none" className="border-r bg-background">
       <SidebarContent>
         <div className="p-6 border-b">
-          <h1 className="text-2xl font-bold text-foreground mb-1">WashU Laboratory</h1>
-          <p className="text-sm text-muted-foreground">Dr. Jane Smith</p>
+          <h1 className="text-2xl font-bold text-foreground mb-1">Autonomous Systems Labratory</h1>
+          <p className="text-sm text-muted-foreground">Dr. Hussein Sibai</p>
         </div>
         <SidebarGroup>
           <SidebarGroupContent>

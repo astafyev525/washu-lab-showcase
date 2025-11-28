@@ -21,10 +21,10 @@ const people: Person[] = [
     email: "i.k.tabbara@wustl.edu"
   },
   {
-    name: "Sarah Johnson",
-    role: "Postdoctoral Researcher",
+    name: "Yuxuan Yang",
+    role: "PhD Student",
     bio: "Sarah focuses on developing novel computational methods for genomic analysis.",
-    email: "sarah.johnson@wustl.edu"
+    email: "y.yuxuan@wustl.edu"
   }
 ];
 

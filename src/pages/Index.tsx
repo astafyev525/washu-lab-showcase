@@ -4,27 +4,33 @@ const Index = () => {
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           <section className="mb-16">
-            <div className="mb-8 w-full h-64 bg-muted rounded-lg flex items-center justify-center">
-              <p className="text-muted-foreground">Lab Image Placeholder</p>
-            </div>
+          <img 
+              src="/Washu_image.jpg" 
+              alt="Campus_image" 
+              className="mb-8 w-full lg"
+            />
             <p className="text-xl text-muted-foreground mb-8 leading-relaxed">
-              We are a research group at Washington University in St. Louis dedicated to advancing 
-              computational biology and biomedical research. Our work combines cutting-edge machine 
-              learning techniques with biological data analysis to solve complex problems in healthcare 
-              and life sciences.
+            We are a research group at Washington University in St. Louis focused on 
+            trustworthy autonomy and cyber-physical systems. Our laboratory develops 
+            theory and builds tools to efficiently design, evaluate, and deploy assured 
+            autonomous systems. Our work combines formal methods, control theory, 
+            and machine learning to ensure the safety and reliability of autonomous systems.
             </p>
           </section>
 
           <section className="mb-16">
             <h2 className="text-3xl font-bold text-foreground mb-4">Research Focus</h2>
             <p className="text-muted-foreground leading-relaxed mb-4">
-              Our laboratory focuses on developing innovative computational methods for analyzing 
-              biological and medical data. We work on projects spanning genomics, medical imaging, 
-              and systems biology.
+            Our laboratory specializes in developing methods to formally verify 
+            the safety of complex cyber-physical systems with machine-learned components. 
+            We work on control barrier functions, neural network verification, safe reinforcement 
+            learning, and robust perception for autonomous systems. Our research has applications 
+            in robotics, autonomous vehicles, and safety-critical systems.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              By integrating advanced machine learning algorithms with domain expertise in biology 
-              and medicine, we aim to accelerate discovery and improve patient outcomes.
+            By combining rigorous mathematical techniques with practical engineering 
+            approaches, we aim to enable the deployment of autonomous systems that are 
+            both highly capable and provably safe.
             </p>
           </section>
 
